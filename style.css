@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+.app-details-content-container-bottom-comp {
+    padding-left: 10px !important;
+}
+
+.app-details-content-container-bottom-comp button {
+    background: #eee;
+    padding: 4px 0 4px 20px;
+}
+
+.app-categories, .app-category, .app-category-flyout {
+    color: black;
+    font-family: 'Roboto Condensed';
+}
+
+.slider {
+    overflow: initial;
+}
+
+.webrcade-outer {
+    overflow: initial;
+}
+
+.app-details-content-container-buttons button {
+    box-shadow: 0 3px 6px #999;
+    border-radius: 0;
+    text-transform: lowercase;
+    font-weight: bold;
+    color: #666;
+    font-family: Roboto;
+}
+
+.app-details-content-container-buttons button :first-letter {
+    text-transform: capitalize;
+}
+
+.slider-item-container {
+    border-radius: 0;
+    border-color: transparent;
+    opacity: 0.1;
+}
+
+.slider-item {
+}
+
+.slider-item-container .slider-item-title {
+    display: none;
+}
+
+.slider-item-container__selected {
+    transform: scale(1.2) translateY(-10px);
+    transition: 0.25s;
+    opacity: 1;
+}
+
+.app-details-right {
+    transform: translate(100%);
+    -webkit-transform: translate(100%);
+}
+
+.fade-in {
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    transition: 0.5s;
+}
+
+.app-details-content-container {
+    max-width: 35%;
+}
+.app-details-left:before {
+    background-image: none;
+}
+
+.app-details-content {
+    background-color: white;
+    color: black;
+}
+
+.app-details-content-container {
+    color: black;
+}
+
+.app-details-content-container-description {
+    color: #333;
+}
+
+body {
+    color: black;
+    background: white;
+}
+
+.slider {
+    background: white;
+}
+
+.webrcade-outer {
+    background: white;
+}
+
+
+
+
+/* fonts */
+.app-details-content-container-title {
+    font-family: 'Roboto';
+    font-size: 48px;
+}
+
+.scroll-text {
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #888;
+    text-align:justify;
+    text-justify:auto;
+}
+
+
